@@ -6,10 +6,11 @@
  * Time: 10.51
  */
 
-namespace Soil\OnSiteNotification\Service;
+namespace Soil\OnSiteNotificationBundle\Service;
 
 
-use Soil\NotificationBundle\Entity\PendingNotification;
+
+use Soil\OnSiteNotificationBundle\Entity\PendingNotification;
 
 class NotificationManager {
 

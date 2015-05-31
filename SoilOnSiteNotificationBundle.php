@@ -1,6 +1,6 @@
 <?php
 
-namespace Soil\OnSiteNotification;
+namespace Soil\OnSiteNotificationBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

@@ -6,7 +6,7 @@
  * Time: 9.22
  */
 
-namespace Soil\NotificationBundle\Entity;
+namespace Soil\OnSiteNotificationBundle\Entity;
 
 use Doctrine\ODM\MongoDB\Mapping\Annotations as ODM;
 

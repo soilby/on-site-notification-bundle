@@ -6,7 +6,7 @@
  * Time: 9.52
  */
 
-namespace Soil\NotificationBundle\Controller;
+namespace Soil\OnSiteNotificationBundle\Controller;
 
 
 use Symfony\Component\HttpFoundation\Request;
