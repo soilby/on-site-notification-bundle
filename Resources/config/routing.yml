@@ -1,0 +1,6 @@
+soil_notification.pending_notification:
+    path:     /pending/{agent_uri}
+    defaults: { _controller: soil_notification.controller.pending_notification:getAgentNotificationAction }
+    methods: [GET]
+    requirements:
+        agent_uri: .+
