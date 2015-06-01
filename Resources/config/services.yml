@@ -1,9 +1,10 @@
 services:
     soil_notification.controller.pending_notification:
-        class: Soil\NotificationBundle\Controller\PendingNotificationController
+        class: Soil\OnSiteNotificationBundle\Controller\PendingNotificationController
+        arguments: [@soil_on_site_notification.service.notification_manager]
 
     soil_on_site_notification.service.notification_manager:
-        class: Soil\OnSiteNotification\Service\NotificationManager
+        class: Soil\OnSiteNotificationBundle\Service\NotificationManager
         arguments: [@doctrine_mongodb]
 
 
